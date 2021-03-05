@@ -1,5 +1,4 @@
 .App {
-
   text-align: center;
 }
 
@@ -21,6 +20,7 @@
   margin: 10px;
   background-color: whitesmoke;
   border-radius: 5px;
+
 }
 
 .main-heading{
@@ -31,8 +31,6 @@
 }
 
 .input-box{
-  /* padding-left: 275px;
-  padding-right: 275px; */
   border-radius: 5px;
   width: 97%;
   padding: 4px;
@@ -44,4 +42,34 @@
   font-family: sans-serif;
   font: weight 100px;
 
+}
+
+.btn-complete{
+  background-color: rgb(224, 224, 224);
+  border: none;
+  color: rgb(150, 148, 148) ;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 6px 8px;
+  border-radius: 5px;
+  float: right ;
+  transition-duration: 0.4s;
+  margin-right: 10px;
+}
+
+.btn-complete:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.btn-class{
+  display: flex;
+  flex-direction: column;
+}
+
+#delete{
+  background-color: #f50f0f; /* Green */
+  color: white;
 }
